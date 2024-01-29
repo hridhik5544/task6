@@ -1,0 +1,57 @@
+.f{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    border: 1px;
+    
+    border-radius: 60px;
+   /** animation: roll 1s ease-in-out 1s infinite ;
+    
+    transition: .5s ease-in-out;
+    **/
+}
+h2{
+    text-align: center;
+    
+}
+
+@keyframes roll{
+    0%{
+        background-color: rgba(76, 0, 130, 0.308);
+        margin-top: 100px;
+        
+    }
+    25%{
+        background-color: blue;
+        margin-top: 150px;
+        margin-left: 100px;
+        
+    }
+    50%{
+        background-color: green;
+        margin-top: 200px;
+        margin-left: 100px;
+        transform: matrix(0, 1, 1, 0, 0, 0);
+    }
+    75%{
+        background:yellow;
+        margin-top: 225px;
+        margin-left: 50px;
+     }
+     100%{
+        background-color: orange;
+        margin-top: 250px;
+        margin-left: 150px;
+        
+     }
+}
+.f:hover{
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+.g{
+    
+
+    
+    
+
+    

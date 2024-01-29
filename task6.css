@@ -1,0 +1,44 @@
+
+
+.logo{
+    height: 100px;
+    width: 70px;
+}
+.ucl{
+    height: 100px;
+    width: 100px;
+    margin-left: 91%;
+    margin-top: -80px;
+}
+h1{
+    text-align: center;
+    margin-top: -80px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#302727, #f0e550);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t1{
+margin-left: 41%;
+font-weight: 4px;
+text-decoration: none;
+color: black;
+font-size: 15px;
+}
+.t1:hover{
+    color: gold;
+}
+h2{
+    text-align: center;
+
+}
+p{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.h1:hover{
+    color: aqua;
+}
+
+
